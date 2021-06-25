@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap");
 /*===============
     CSS VARIABLES
 =================*/
@@ -42,7 +41,7 @@ html {
   padding: 1rem;
   background-image: url("../img/pattern-curve.svg");
   background-position: left bottom;
-  background-size:40%;  /*****Check once*******/
+  background-size: 40%; /*****Check once*******/
   background-repeat: no-repeat;
 }
 
@@ -50,7 +49,7 @@ html {
   display: block;
   height: 100%;
   width: 100%;
-  max-width:  850px;
+  max-width: 850px;
   margin: 0 auto;
   position: relative;
 }
@@ -62,7 +61,6 @@ html {
   justify-content: center;
   align-items: center;
   text-align: center;
- 
 }
 
 .slide-img-🖼️ {
@@ -74,15 +72,14 @@ html {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
- 
 }
 
 .slide-text {
   padding-top: 1rem;
   display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background-image: url("../img/pattern-quotes.svg");
   background-repeat: no-repeat;
   background-size: 80px;
@@ -97,7 +94,7 @@ html {
 }
 
 .author-name {
-  margin-top: .7rem;
+  margin-top: 0.7rem;
   color: var(--Dark_Blue);
   font-size: 0.5rem;
   font-weight: 700;
@@ -111,21 +108,20 @@ html {
 
 .slide-img-🖼️ img {
   height: 100%;
-	width: 300px;
+  width: 300px;
 }
 
 .slider-🔘 {
   position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-	top: 315px;
-	width: 90px;
-	height: 45px;
-	box-shadow: -20px 12px 20px 0px hsla(240, 18%, 77%, 0.52);
-	border-radius: 50px;
-	background-color: var(--button-background-color);
-	overflow: hidden;
- 
+  left: 50%;
+  transform: translateX(-50%);
+  top: 315px;
+  width: 90px;
+  height: 45px;
+  box-shadow: -20px 12px 20px 0px hsla(240, 18%, 77%, 0.52);
+  border-radius: 50px;
+  background-color: var(--button-background-color);
+  overflow: hidden;
 }
 
 .next-⏭️,
@@ -178,6 +174,32 @@ html {
   display: none;
 }
 
+
+/* SLIDER SMOOTH TRANSITION */
+.fade {
+  -webkit-animation: 1s cubic-bezier(0.94, 0.21, 0.32, 1.2) 0s fade;
+  animation: 1s cubic-bezier(0.94, 0.21, 0.32, 1.2) 0s fade;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* SLIDER SMOOTH TRANSITION */
+
 /*===========================
         SECTION STYLING END  
 ============================*/
@@ -189,7 +211,6 @@ html {
   margin-top: 3rem;
   font-size: 11px;
   text-align: center;
-  
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -197,8 +218,6 @@ html {
 /*=====================
       ATTRIBUTION STYLING 
  =====================*/
-
-
 
 /*======================== 
       DESKTOP MEDIA QUERY 
@@ -219,12 +238,9 @@ html {
     align-items: flex-start;
   }
 
- 
-
   .slide-img-🖼️ {
     margin-left: -100px;
     z-index: -1;
-   
   }
 
   .slide-img-🖼️ img {
@@ -247,39 +263,36 @@ html {
       DESKTOP MEDIA QUERY 
 =========================*/
 
-
-
 /*======================== 
       MOBILE MEDIA QUERY 
 =========================*/
-@media (max-width:400px){
-  .main-container{
+@media (max-width: 400px) {
+  .main-container {
     background-size: 70%;
-    padding: .6rem;
+    padding: 0.6rem;
   }
 
-  .slide-text{
+  .slide-text {
     margin-top: 1.3rem;
     padding-top: 0;
     background-size: 50px;
     background-position: top center;
-    
   }
 
-  .author-name{
+  .author-name {
     font-size: 0.6rem;
     font-weight: 700;
   }
 
-  .slide-img-🖼️ img{
+  .slide-img-🖼️ img {
     width: 200px;
   }
 
-  .slide-img-🖼️{
-    padding: .3rem;
+  .slide-img-🖼️ {
+    padding: 0.3rem;
   }
 
-  .slider-🔘{
+  .slider-🔘 {
     top: 180px;
   }
 }
