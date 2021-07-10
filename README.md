@@ -28,25 +28,23 @@ Thanks for checking out this front-end coding challenge.
 
 ### Screenshot
 
-![](./screenshot.png)
+![](./img/screenshot.png)
 
 ### Links
 
-- Solution URL: [Github Repo](https://github.com/atinybeardedman/profile-card-component)
-- Live Site URL: [Netlify Site](https://inspiring-booth-a07029.netlify.app)
+- Solution URL: [Github Repo](https://github.com/JadhavSuraj7rk/coding-bootcamp-testimonials-slider)
+- Live Site URL: [vercel Site](https://coding-bootcamp-testimonials-slider-nu-pink.vercel.app/)
 
 ## My process
 
-I approached this simple card using a mobile first workflow, only to realize the card itself doesn't change at all for the desktop version so there wasn't much to do regarding responsive design. 
-
-I built out the layout for the card and background using flexbox and found it to be mostly what I was expecting. The colors given in the style guide were particularly representative of the design. Yes they were used, but there is a color used for the border between the card sections that isn't listed, and I couldn't find where they had used the "Very dark desaturated blue" color at all.
+I built out the layout for this design using flexbox and found it to be mostly what I was expecting. I have make slider with smooth transistion using plain javascript. 
 
 ### Feedback
-
+I would like your Feedback, to correct something that is messy or wrong in my code and to have a different point of view to aggregate in my knowledge. Thank you in advance. 🙏🙏🙏
  
 
 ### Built with
 
-- Semantic HTML5 markup
-- Flexbox
+- [![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)
+- [![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com)
 
